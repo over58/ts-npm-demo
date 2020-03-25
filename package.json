@@ -1,5 +1,5 @@
 {
-  "name": "ts-hi",
+  "name": "ts-npm-demo",
   "version": "0.1.1",
   "description": "create npm package with typescript",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/youthcity/ts-hi.git"
+    "url": "git+https://github.com/over58/ts-npm-demo.git"
   },
   "keywords": [
     "typescript"
@@ -18,14 +18,18 @@
   "author": "youthcity",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/youthcity/ts-hi/issues"
+    "url": "https://github.com/over58/ts-npm-demo.git/issues"
   },
-  "homepage": "https://github.com/youthcity/ts-hi#readme",
+  "homepage": "https://github.com/over58/ts-npm-demo.git#readme",
   "devDependencies": {
     "chai": "^4.1.2",
     "coveralls": "^3.0.2",
     "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
-    "typescript": "^3.0.3"
+    "typescript": "^3.8.3"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
